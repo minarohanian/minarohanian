@@ -1,30 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formatted Text</title>
-    <style>
-        p {
-            font-family: Arial, sans-serif;
-            font-size: 18px;
-            line-height: 1.5;
-            color: #333;
-        }
-    </style>
+ Upload your Unemployable (or whatever photo you like) to the assets/images folder
+        and change the name of the image below to match the uploaded one
+
+       Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+ -->
+<link rel="icon" href="./assets/images/1311.png" />
+	<title>MinaRohanian</title>
+<meta name="description" content="A portfolio template for the Unemployables community.">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="./css/layout.css">
+<link rel="stylesheet" href="./css/typography.css">
+<link rel="stylesheet" href="./css/utilities.css">
+
+	<script defer src="./js/script.js"></script>
 </head>
 <body>
-    <p>Hi, I'm Mina<br>I'm a passionate<br>Experience Designer</p>
-</body>
-</html>
-              <div class="body-text">with years of industry experience. I specialize in creating intuitive and engaging user interfaces that enhance the overall user experience.</div>
-            </div>
-            <a class="button" id="my-work-link">
-              <span class="button-text">Check out my projects</span> 
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-        </div>
-      </div>
+<!-- NAVBAR -->
+<div class="navbar">
+  <a class="nav-title-link" href="./index.html">
+    <!-- TODO - Change the "" to whatever you want displayed in the top left -->
+    <span class="nav-title"></span>
+     <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+    <a class="button" href="mailto:whitevans.eth@gmail.com">
+      <span class="button-text">Contact Me</span>
+    </a>
+  </a>
+</div>
+
+<!-- MAIN PAGE CONTENT -->
+<div id="main-content">
+
+  <!-- PORTFOLIO HEADER -->
+  <div id="portfolio-header">
+    <div id="portfolio-header-image-container">
+      <!-- 
+        TODO
+
+        - Change the img "src" attribute to point to the Unemployable image you uploaded (or whatever image).
+        - Change the number to point to your Unemployable & replace the OpenSea link with your own
+        - If you aren't using an Unemployable as your image, remove the entire "a" element
+      -->
+      <img src="./assets/images/1311.png" class="portfolio-header-image">
+      <a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311">
+        <span class="image-caption"></span>
+      </a>
+    </div>
 
       <!-- ABOUT SECTION -->
       <!-- 
